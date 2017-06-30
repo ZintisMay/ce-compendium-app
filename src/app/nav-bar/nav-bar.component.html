@@ -1,0 +1,22 @@
+<div class="hugTop">
+	<h1>
+		<a routerLink="/{{link.path}}" *ngFor="let link of linkRoutes">
+			<span>{{link.path}}</span>
+		</a>
+	</h1>
+
+	<a href="https://www.patreon.com/oauth2/authorize?response_type=code&client_id=1acc418a0ab3ab194e1983a0d66bcff77d6b712449d35cbe77177a57dd44d055&redirect_uri=https://ce-compendium-app.firebaseapp.com/OTP2/">PatreonOauth</a>
+</div>
+
+<!-- {
+  path: "", redirectTo: "/Main", pathMatch: 'full'
+},
+{
+  path: "Main", component: MainViewComponent
+},
+{ 
+  path: "OTP1", component: OauthTestPage1Component
+},
+{ 
+  path: "OTP2", component: OauthTestPage1Component
+} -->
